@@ -5,7 +5,7 @@
 
 
 // instantiate an object for the nRF24L01 transceiver
-RF24 radio(5, 6);
+RF24 radio(3, 2);
 
 
 void setup() {
@@ -26,4 +26,6 @@ void setup() {
   }
 
   
-}  // loop
+} 
+void loop() 
+{}
